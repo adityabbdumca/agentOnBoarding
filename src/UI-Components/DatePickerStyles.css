@@ -1,0 +1,67 @@
+.date-picker-wrapper {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* MUI wrapper adjustments */
+.date-picker-wrapper .MuiFormControl-root {
+  width: 100%;
+}
+
+/* MUI input base */
+.date-picker-wrapper .MuiInputBase-root {
+  background: #ffffff;
+  border: 2px solid var(--color-lightGray);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 16px;
+  color: #000;
+  height: 2.5rem;
+}
+
+/* MUI input label */
+.date-picker-wrapper .MuiInputLabel-root {
+  font-size: 16px;
+  color: #000;
+  padding: 0;
+}
+
+/* Input field */
+.date-picker-wrapper input {
+  padding: 0;
+  font-size: 13px;
+  color: #000;
+  font-weight: 500;
+  font-family: "Manrope", sans-serif; /* Adjust if needed */
+  opacity: 1;
+  letter-spacing: 0.5px;
+}
+
+/* Disabled styles */
+.date-picker-wrapper :disabled {
+  opacity: 1;
+  color: #979797;
+  cursor: not-allowed;
+}
+
+/* SVG Icon styling */
+.date-picker-wrapper .MuiInputSvgIcon-root,
+.date-picker-wrapper .MuiSvgIcon-root {
+  color: #000;
+  font-size: 14px;
+}
+
+/* Placeholder styling */
+.date-picker-wrapper .MuiInput-placeholder {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.MuiSvgIcon-root {
+  color: var(--color-primary) !important;
+}
+
+.css-1ll44ll-MuiOutlinedInput-notchedOutline {
+  border: 0 !important;
+}
