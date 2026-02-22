@@ -26,6 +26,7 @@
     "@tanstack/react-table": "^8.21.3",
     "@types/three": "^0.176.0",
     "axios": "^1.10.0",
+    "build": "^0.1.4",
     "crypto-js": "^4.2.0",
     "ldrs": "^1.1.7",
     "lodash": "^4.17.21",
